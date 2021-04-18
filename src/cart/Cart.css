@@ -1,0 +1,124 @@
+.cartshop{
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mycart{
+    background-color: rgb(6, 128, 165);
+    color: white;
+    padding: 7px;
+    
+}
+.totalproincart{
+    padding: 5px 10px 5px 10px;
+    background-color: black;
+    color: white;
+    margin-left: 3px;
+    border: 1px dotted white;
+    position: relative;
+    right: -5px;
+}
+.ContinueShopping{
+    font-weight: 600;
+    border: 2px solid rgb(255, 147, 5);
+    color: rgb(255, 145, 0);
+    background-color: white;
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.ContinueShopping:hover{
+    background-color: rgb(207, 125, 18);
+    color: white;
+}
+.cartkjxs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartkjxs img{
+    width: 125px;
+    height: 120px;
+}
+.iuhd{
+    font-size: 17px;
+    color: rgb(65, 65, 65);
+}
+.akjc{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1px;
+}
+.elwkd{
+    font-weight: 600;
+}
+.checkout{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: chocolate;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.subtotal{
+    font-size: 17px;
+}
+.subb{
+    color: rgb(44, 112, 214);
+}
+.askhcae{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom:160px ;
+}
+.cartItems{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(146, 145, 145);
+}
+.carttotalprice{
+    width: 75%;
+    height: 100%;
+    padding:12px;
+    text-align: right;
+    background-color: rgb(201, 201, 201);
+    font-weight: 600;
+}
+.kajsnc{
+    color: green;
+    font-size: 16px;
+}
+.qoiehd{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(221, 24, 24);
+    color: white;
+    padding: 5px;
+}
+.emptycart{
+    background-color: crimson;
+    color: white;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+}

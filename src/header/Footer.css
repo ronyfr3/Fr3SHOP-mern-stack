@@ -1,0 +1,51 @@
+footer{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(26, 24, 24);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 8px;
+    margin-top: 5px;
+}
+.anmsc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gm{
+    text-transform: lowercase;
+    margin-bottom: 15px;
+}
+.git{
+    border: none;
+    outline: none;
+    background-color: rgb(73, 73, 80);
+    color: white;
+    width: 120px;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+.ccc{
+    color: yellowgreen;
+    font-size: 16px;
+}
+.fb{
+    border: none;
+    outline: none;
+    background-color: rgb(74, 74, 250);
+    color: white;
+    width: 120px;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    margin-right: 10px;
+}

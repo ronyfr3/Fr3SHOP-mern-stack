@@ -1,0 +1,56 @@
+.cameras{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.camera{
+    width: 280px;
+    height: 100%;
+    border: 1px solid rgb(158, 156, 156);
+    margin: 13px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+}
+.camera img{
+    width: 100%;
+    height: 260px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.disPrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.discount{
+    font-size: 14px;
+    width: 50px;
+    position: relative;
+    top: -13px;
+    text-align: center;
+    background-color: rgb(226, 131, 7);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top: 2px dotted rgb(253, 251, 251);
+    border-left: 2px dotted rgb(252, 250, 250);
+}
+.viewdetails{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(41, 97, 41);
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.buy:hover{
+    background-color: rgb(28, 155, 28);
+}

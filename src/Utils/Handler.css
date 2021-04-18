@@ -1,0 +1,39 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto;
+}
+.pagenotfound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto;
+}
+.not{
+    background-color: rgb(199, 131, 30);
+    color: white;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+}
+.err{
+    background-color: crimson;
+    color: white;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+}
+.loader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}

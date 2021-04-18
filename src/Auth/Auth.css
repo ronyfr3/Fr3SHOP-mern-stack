@@ -1,0 +1,71 @@
+.form_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  width: 300px;
+}
+.heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(9, 90, 110);
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  padding-top: 18px;
+  padding-bottom: 5px;
+}
+.input {
+  width: 100%;
+  padding: 7px;
+  margin: 5px;
+  text-transform: lowercase;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  padding: 35px;
+  margin-bottom: 250px;
+  border-radius: 5px;
+}
+.form_btn {
+  background-color: teal;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.is-danger {
+  color: rgb(212, 19, 19);
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.alreadyacc{
+  font-size: 14px;
+}
+.alreadyacc a{
+  font-size: 14px;
+  background-color: crimson;
+  color: white;
+  margin-left: 7px;
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 2px;
+}
